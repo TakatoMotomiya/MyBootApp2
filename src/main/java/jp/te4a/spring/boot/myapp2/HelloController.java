@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp1;
+package jp.te4a.spring.boot.myapp2;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HelloController
 {
-	@RequestMapping("/")
+	@RequestMapping("/taro")
 	public String index() {
-		return "Hello,SpringBoot!";
+		return "Taro desu!";
 }
 }
